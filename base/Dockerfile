@@ -33,5 +33,4 @@ RUN apt-get -qqy install ruby
 	
 # get IBM SDK Manager from github
 RUN cd && \
-	git clone https://github.com/ibm-watson-cxa/SDK_Tools.git ibm_sdk_tools && \
-	ln -s /root/ibm_sdk_tools/sdkmanager/minstrument.sh /usr/local/bin/ibmsdkmanager
+	git clone https://github.com/ibm-watson-cxa/SDK_Tools.git ibm_sdk_tools
